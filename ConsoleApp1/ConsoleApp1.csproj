@@ -43,12 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormUrlEncodedContent.cs" />
-    <Compile Include="HttpClientHelper.cs" />
-    <Compile Include="HttpParseResult.cs" />
-    <Compile Include="HttpRuleParser.cs" />
+    <Compile Include="FormUrlEncodedContent\FormUrlEncodedContent.cs" />
+    <Compile Include="FormUrlEncodedContent\HttpClientHelper.cs" />
+    <Compile Include="FormUrlEncodedContent\HttpParseResult.cs" />
+    <Compile Include="FormUrlEncodedContent\HttpRuleParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
